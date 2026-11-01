@@ -1,0 +1,16 @@
+{
+  "name": "resume-screener-e2e",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "End-to-end tests against a running stack (docker compose up).",
+  "scripts": {
+    "test": "npm run test:api && npm run test:ui",
+    "test:api": "node api.test.mjs",
+    "test:ui": "node ui.test.mjs",
+    "install:browser": "playwright install chromium"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}

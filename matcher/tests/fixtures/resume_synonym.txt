@@ -1,0 +1,20 @@
+Karthik Nair
+Web Application Developer
+karthik.nair@example.com | +91 91234 56789
+
+About Me
+Developer who enjoys shipping end-to-end product features, from server-side endpoints
+to interactive user interfaces, for growing SaaS companies.
+
+Key Skills
+Flask, Vue.js, JavaScript, MySQL, Linux, Nginx, GitHub Actions
+
+Professional Experience
+Web Application Developer, CloudCart (2020 - Present)
+- Built server-side HTTP endpoints for the checkout service with Flask and SQLAlchemy.
+- Created interactive single-page interfaces with Vue.js and reusable UI widgets.
+- Tuned relational database queries and indexes in MySQL for faster reporting.
+- Automated testing and releases with GitHub Actions and deployed to Linux servers behind Nginx.
+
+Education
+B.Sc. in Computer Applications, Christ University, 2020

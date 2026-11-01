@@ -1,0 +1,55 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 790 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(Rahul Verma) Tj T*
+(Backend Developer) Tj T*
+(rahul.verma@example.com | \(555\) 123-4567) Tj T*
+() Tj T*
+(Profile) Tj T*
+(Backend developer with 4 years of experience building enterprise services in Java.) Tj T*
+(Some exposure to frontend work with React.) Tj T*
+() Tj T*
+(Skills) Tj T*
+(Java, Spring Boot, Hibernate, MySQL, React, Docker, Jenkins, Git) Tj T*
+() Tj T*
+(Work Experience) Tj T*
+(Backend Developer, FinCore Systems \(2020 - Present\)) Tj T*
+(- Built microservices with Java and Spring Boot backed by MySQL.) Tj T*
+(- Maintained Jenkins build pipelines and Docker images for deployment.) Tj T*
+(- Helped the frontend team with small React features.) Tj T*
+() Tj T*
+(Education) Tj T*
+(B.E. in Information Technology, Pune University, 2020) Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001082 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1179
+%%EOF

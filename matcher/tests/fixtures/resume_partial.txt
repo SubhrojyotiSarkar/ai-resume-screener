@@ -1,0 +1,19 @@
+Rahul Verma
+Backend Developer
+rahul.verma@example.com | (555) 123-4567
+
+Profile
+Backend developer with 4 years of experience building enterprise services in Java.
+Some exposure to frontend work with React.
+
+Skills
+Java, Spring Boot, Hibernate, MySQL, React, Docker, Jenkins, Git
+
+Work Experience
+Backend Developer, FinCore Systems (2020 - Present)
+- Built microservices with Java and Spring Boot backed by MySQL.
+- Maintained Jenkins build pipelines and Docker images for deployment.
+- Helped the frontend team with small React features.
+
+Education
+B.E. in Information Technology, Pune University, 2020

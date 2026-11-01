@@ -1,0 +1,18 @@
+Senior Full-Stack Engineer (Python / React)
+
+We are looking for a senior full-stack engineer to build and scale our hiring platform.
+You will design REST APIs in Python with FastAPI, build responsive web applications in
+React and TypeScript, and own features end to end from the database to the browser.
+
+Responsibilities
+- Design, build and maintain backend services and REST APIs using Python and FastAPI.
+- Develop reusable React components with TypeScript and modern state management.
+- Model data and write efficient queries in PostgreSQL.
+- Containerize services with Docker and deploy them to AWS.
+- Write unit tests and take part in code reviews in an agile team.
+
+Requirements
+- 4+ years of professional software development experience.
+- Strong Python and React skills; experience with TypeScript.
+- Solid understanding of PostgreSQL, Docker and cloud deployment on AWS.
+- Familiarity with CI/CD pipelines and Git.

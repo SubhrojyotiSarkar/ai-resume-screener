@@ -1,0 +1,23 @@
+PRIYA SHARMA
+Senior Software Engineer | Bengaluru
+priya.sharma@example.com | +91 98765 43210
+
+Summary
+Full-stack engineer with 6 years of experience building web applications and REST APIs
+with Python, FastAPI and React. Passionate about clean code, testing and cloud deployment.
+
+Technical Skills
+Python, FastAPI, Django, React, TypeScript, Redux, PostgreSQL, Redis, Docker, AWS, Git, CI/CD
+
+Experience
+Senior Software Engineer, TalentStack (2021 - Present)
+- Designed and built REST APIs in Python and FastAPI serving 2M requests per day.
+- Developed React and TypeScript components for the recruiter dashboard.
+- Optimized PostgreSQL queries and schema design, cutting page load time by 40%.
+- Containerized services with Docker and deployed them to AWS using CI/CD pipelines.
+Software Engineer, WebWorks (2018 - 2021)
+- Built backend services with Django and wrote unit tests for every feature.
+- Worked in an agile team with weekly code reviews.
+
+Education
+B.Tech in Computer Science, IIT Madras, 2018

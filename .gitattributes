@@ -1,0 +1,10 @@
+# Store text with LF everywhere so Dockerfiles, scripts and configs work in Linux containers,
+# even when the repo is checked out on Windows.
+* text=auto eol=lf
+
+# Binary files must never have line endings converted.
+*.pdf  binary
+*.docx binary
+*.png  binary
+*.jpg  binary
+*.ico  binary

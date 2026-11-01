@@ -1,0 +1,74 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id           String   @id @default(uuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+
+  jobs Job[]
+}
+
+model Job {
+  id             String   @id @default(uuid())
+  recruiterId    String
+  title          String
+  description    String
+  requiredSkills String[] @default([])
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  recruiter    User          @relation(fields: [recruiterId], references: [id], onDelete: Cascade)
+  applications Application[]
+
+  @@index([recruiterId, createdAt])
+}
+
+model Resume {
+  id             String   @id @default(uuid())
+  candidateName  String
+  candidateEmail String?
+  fileKey        String   @unique
+  fileName       String
+  mimeType       String
+  mongoDocId     String   @unique
+  uploadedAt     DateTime @default(now())
+
+  applications Application[]
+}
+
+enum ApplicationStatus {
+  NEW
+  SHORTLISTED
+  REJECTED
+}
+
+model Application {
+  id            String            @id @default(uuid())
+  jobId         String
+  resumeId      String
+  // Scores are 0-100 and null until the matcher has scored this application.
+  matchScore    Float?
+  textScore     Float?
+  skillScore    Float?
+  semanticScore Float?
+  lexicalScore  Float?
+  matchedSkills String[]          @default([])
+  missingSkills String[]          @default([])
+  status        ApplicationStatus @default(NEW)
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  job    Job    @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  resume Resume @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+
+  @@unique([jobId, resumeId])
+  @@index([jobId, matchScore])
+}
